@@ -14,7 +14,7 @@ namespace TDDHelpers
         {
             int[] newArr = new int[arr.Length];
             Array.Copy(arr, newArr, arr.Length);
-            Array.Sort(newArr);.
+            Array.Sort(newArr);
 
             return newArr;
         }
