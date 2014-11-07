@@ -40,6 +40,7 @@ namespace TDDHelpers
             return arr;
         }
 
+        // FIX THIS!
         public int GetAverage(int[] arr)
         {
             return (int)arr.Average();
