@@ -186,7 +186,6 @@
     <Build Include="tSQLt\User Defined Types\Private.sql" />
     <Build Include="Security\tSQLt.sql" />
     <Build Include="SKEMA_TEST_TEAMCITY.sql" />
-    <Build Include="DROP.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assemblies\tSQLtCLR.dll" />
@@ -206,6 +205,7 @@
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="RunAll.sql" />
+    <None Include="DROP2.sql" />
   </ItemGroup>
   <ItemGroup>
     <ArtifactReference Include="$(DacPacRootPath)\Extensions\Microsoft\SQLDB\Extensions\SqlServer\110\SqlSchemas\master.dacpac">
