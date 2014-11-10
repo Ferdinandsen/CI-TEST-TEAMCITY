@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDHelpers", "TDDHelpers\TDDHelpers.csproj", "{D1B3AC07-A280-423E-BFFE-E4E3AEECD7E1}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TEST_TEAMCITY", "TEST_TEAMCITY\TEST_TEAMCITY.sqlproj", "{73F70172-3EA0-46BA-B3BC-59B396393DFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{D1B3AC07-A280-423E-BFFE-E4E3AEECD7E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1B3AC07-A280-423E-BFFE-E4E3AEECD7E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1B3AC07-A280-423E-BFFE-E4E3AEECD7E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F70172-3EA0-46BA-B3BC-59B396393DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F70172-3EA0-46BA-B3BC-59B396393DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F70172-3EA0-46BA-B3BC-59B396393DFA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{73F70172-3EA0-46BA-B3BC-59B396393DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F70172-3EA0-46BA-B3BC-59B396393DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F70172-3EA0-46BA-B3BC-59B396393DFA}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
