@@ -186,6 +186,7 @@
     <Build Include="tSQLt\User Defined Types\Private.sql" />
     <Build Include="Security\tSQLt.sql" />
     <Build Include="SKEMA_TEST_TEAMCITY.sql" />
+    <Build Include="DROP.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assemblies\tSQLtCLR.dll" />
