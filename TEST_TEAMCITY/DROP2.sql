@@ -9,7 +9,7 @@ Post-Deployment Script Template
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
-USE master ;
+USE master;
 GO
 DROP DATABASE Dummy;
 GO
