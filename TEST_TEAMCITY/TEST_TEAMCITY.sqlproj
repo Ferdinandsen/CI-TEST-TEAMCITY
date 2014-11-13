@@ -67,6 +67,7 @@
     <Folder Include="tSQLt\User Defined Types\" />
     <Folder Include="Assemblies\" />
     <Folder Include="Security\" />
+    <Folder Include="Scripts\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="tSQLt\Tables\TestResult.sql" />
@@ -186,6 +187,7 @@
     <Build Include="tSQLt\User Defined Types\Private.sql" />
     <Build Include="Security\tSQLt.sql" />
     <Build Include="SKEMA_TEST_TEAMCITY.sql" />
+    <None Include="Scripts\ScriptsIgnoredOnImport.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assemblies\tSQLtCLR.dll" />
@@ -205,7 +207,6 @@
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="RunAll.sql" />
-    <Build Include="DROP2.sql" />
   </ItemGroup>
   <ItemGroup>
     <ArtifactReference Include="$(DacPacRootPath)\Extensions\Microsoft\SQLDB\Extensions\SqlServer\110\SqlSchemas\master.dacpac">

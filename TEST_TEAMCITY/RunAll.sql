@@ -9,4 +9,4 @@ Post-Deployment Script Template
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
-EXEC tSQLt.RunAll
+EXEC tSQLt.RunAll;
